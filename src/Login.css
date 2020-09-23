@@ -1,0 +1,128 @@
+.login {
+    display: flex;
+    background: white;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login__container {
+    -webkit-box-shadow: 2px 1px 15px 10px #f1f1f1;
+    -moz-box-shadow: 2px 1px 15px 10px #f1f1f1;
+    box-shadow: 2px 1px 15px 10px #f1f1f1;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.login__container>h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login__container>form>h5 {
+    margin-bottom: 5px;
+}
+
+.login__container>form>input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background: rgb(241, 241, 241);
+    padding-left: 10px;
+    height: 30px;
+    width: 98%;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+.login__container>p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.login__signin {
+    background: #ff9901;
+    cursor: pointer;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    outline-width: 0;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: large;
+    color: #111;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login__signin>button:focus {
+    background: #ef9023;
+}
+
+.login__registerButton {
+    background: black;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: gray;
+    outline-width: 0;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: large;
+    color: #fff;
+    width: 100%;
+}
+
+.login__container .continue {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    outline-width: 0;
+    padding: 5px 20px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.google {
+    background: lightgray;
+    border: none;
+    box-shadow: 0px 4px 35px -15px rgb(1, 1, 1);
+}
+
+.login__container .continue img {
+    width: 25px;
+    transition: 1s !important;
+    height: 25px;
+}
+
+.span {
+    display: none !important;
+    transition: 1s !important;
+}
+
+.continue img:hover~.span {
+    display: flex !important;
+    font-size: medium;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
