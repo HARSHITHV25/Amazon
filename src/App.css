@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.element::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        background: #111 !important;
+        transition: 15s all ease-in-out;
+        display: none;
+    }
+    .app {
+        opacity: 0;
+    }
+    .app:hover {
+        background: #111;
+        transition: 15s all ease-in-out;
+        display: none;
+    }
+}

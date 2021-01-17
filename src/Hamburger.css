@@ -1,0 +1,144 @@
+.bm-burger-button {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    outline-width: 0 !important;
+    border: none;
+}
+
+body:focus {
+    outline-width: 0;
+    outline: transparent;
+}
+
+.bm-icon {
+    fill: white !important;
+}
+
+.bm-cross-button {
+    width: 30px !important;
+    height: 30px !important;
+    position: relative !important;
+    left: 88%;
+}
+
+.bm-cross {
+    width: 25px !important;
+    height: 25px !important;
+    background: none !important;
+    z-index: 100000;
+}
+
+.bm-burger-bars {
+    background: #fff;
+    height: 5% !important;
+}
+
+.bm-burger-bars-hover {
+    background: red;
+}
+
+.bm-cross {
+    background: #000;
+}
+
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+.bm-menu {
+    background: #fff;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.menu__category {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 10px;
+}
+
+.menu__category>h4 {
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+.bm-menu {
+    padding: 0;
+}
+
+.menu__head {
+    width: 100%;
+    outline: none;
+    background: #373a47;
+    padding: 5px 10px 5px 30px;
+    color: white;
+    display: flex !important;
+    position: sticky;
+    top: 0;
+    align-items: center !important;
+}
+
+.menu__head h4 {
+    margin-left: 10px;
+    font-weight: 400 !important;
+    display: flex;
+}
+
+.bm-item-list {
+    padding: 0;
+}
+
+.user {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: #373a47 !important;
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.menu__item:hover {
+    background: lightgray;
+}
+
+.right {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.line {
+    width: 86%;
+    margin: 5px auto;
+    background: grey;
+}
+
+.signin {
+    color: white;
+    margin-left: 5px;
+}

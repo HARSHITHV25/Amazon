@@ -1,0 +1,39 @@
+.cart {
+    display: flex;
+    padding: 20px;
+    background: #eaeded;
+    height: max-content;
+}
+
+.cart__left {
+    flex: 1;
+    height: 100%;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.cart__ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cart__basketTitle {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.link {
+    color: red !important;
+}
+
+.link:hover {
+    color: black !important;
+}
+
+.nope {
+    margin-top: 50px;
+    height: 500px;
+    border-radius: 20px;
+    width: 650px;
+}
